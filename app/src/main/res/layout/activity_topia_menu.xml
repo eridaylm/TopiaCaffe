@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".TopiaMenu">
+
+
+
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:ems="17"
+            android:hint="Masukan Nama Pemesan"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/et_nomor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:ems="17"
+            android:hint="Masukan Nomor Meja"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Daftar Menu Topia's Caffe"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/poppins_bold" />
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="400dp"
+                android:layout_height="1250dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/lengkung" />
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:src="@drawable/carbonara" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Beef Carbonara"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp. 65.000"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/show_count_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="60dp"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/btn_add1"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="58dp"
+                android:text="Add"
+                android:textSize="7dp"
+                app:backgroundTint="#4F6F52"
+                app:cornerRadius="200dp" />
+
+            <ImageButton
+                android:id="@+id/btn_tambah1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="207dp"
+                android:layout_marginTop="65dp"
+
+                app:srcCompat="@drawable/ic_baseline_add_24" />
+
+            <ImageButton
+                android:id="@+id/btn_kurang1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="65dp"
+                tools:srcCompat="@drawable/ic_baseline_remove_24" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="140dp"
+                android:text="Pasta dengan saus krim telur, keju parmesan, dan daging sapi panggang untuk rasa creamy dan gurih." />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/lengkung" />
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:src="@drawable/cherrypastrypes" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Cherry Pastry Pie"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="40dp"
+                android:text="Rp. 55.000"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/show_count_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="60dp"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/btn_add2"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="58dp"
+                android:text="Add"
+                android:textSize="7dp"
+                app:backgroundTint="#4F6F52" />
+
+            <ImageButton
+                android:id="@+id/btn_tambah2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="207dp"
+                android:layout_marginTop="65dp"
+
+                app:srcCompat="@drawable/ic_baseline_add_24" />
+
+            <ImageButton
+                android:id="@+id/btn_kurang2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="65dp"
+                tools:srcCompat="@drawable/ic_baseline_remove_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="140dp"
+                android:text="Pastry kecil berisi ceri manis dalam lapisan kulit renyah di luar dan lembut di dalamnya." />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/lengkung"/>
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:src="@drawable/oreo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Oreo Milshake"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp. 30.000"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/show_count_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="60dp"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/btn_add3"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="58dp"
+                android:text="Add"
+                android:textSize="7dp"
+                app:backgroundTint="#4F6F52" />
+
+            <ImageButton
+                android:id="@+id/btn_tambah3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="207dp"
+                android:layout_marginTop="65dp"
+
+                app:srcCompat="@drawable/ic_baseline_add_24" />
+
+            <ImageButton
+                android:id="@+id/btn_kurang3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="65dp"
+
+                tools:srcCompat="@drawable/ic_baseline_remove_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="140dp"
+                android:text="Minuman segar dengan es krim vanilla, susu, dan Oreo hancur untuk rasa cokelat kaya dengan sentuhan renyah." />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/lengkung"/>
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:src="@drawable/sandwich" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Topia's Sandwich"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp. 35.000"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/show_count_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="60dp"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/btn_add4"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="58dp"
+                android:text="Add"
+                android:textSize="7dp"
+                app:backgroundTint="#4F6F52"
+                app:cornerRadius="200dp" />
+
+            <ImageButton
+                android:id="@+id/btn_tambah4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="207dp"
+                android:layout_marginTop="65dp"
+
+                app:srcCompat="@drawable/ic_baseline_add_24" />
+
+            <ImageButton
+                android:id="@+id/btn_kurang4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="65dp"
+
+                tools:srcCompat="@drawable/ic_baseline_remove_24" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="140dp"
+                android:text="Hidangan serbaguna dengan kombinasi daging, keju, sayuran di roti lembut atau pilihan vegetarian dengan berbagai sayuran." />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/lengkung"/>
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:src="@drawable/strawberry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Strawberry Smoothies"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp. 28.000"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/show_count_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="60dp"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/btn_add5"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="58dp"
+                android:text="Add"
+                android:textSize="7dp"
+                app:backgroundTint="#4F6F52"
+                app:cornerRadius="200dp" />
+
+            <ImageButton
+                android:id="@+id/btn_tambah5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="207dp"
+                android:layout_marginTop="65dp"
+
+                app:srcCompat="@drawable/ic_baseline_add_24" />
+
+            <ImageButton
+                android:id="@+id/btn_kurang5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="65dp"
+
+                tools:srcCompat="@drawable/ic_baseline_remove_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="140dp"
+                android:text="Minuman sehat dari strawberry segar yang di-blend dengan yogurt atau susu untuk rasa manis alami dan konsistensi lembut." />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_pesan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="60dp"
+            android:text="PESAN"
+            android:textSize="12dp"
+            app:backgroundTint="#4F6F52"
+            app:cornerRadius="500dp" />
+
+    </LinearLayout>
+</ScrollView>

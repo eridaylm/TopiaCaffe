@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/page"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp"
+            android:text="Topia's Caffe"
+            android:textSize="24sp"
+            app:fontFamily="@font/poppins_bold" />
+        <TextView
+            android:id="@+id/waktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yyyy-MM-dd HH:mm:ss"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nama"
+            android:text="nama"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nomor"
+            android:text="nomor"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"
+            android:text="Pesanan sudah diterima!"
+            app:fontFamily="@font/poppins_bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/cek" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="Back To Menu"
+        app:backgroundTint="#4F6F52"
+        app:cornerRadius="500dp" />
+
+
+</LinearLayout>
